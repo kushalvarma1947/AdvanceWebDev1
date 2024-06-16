@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <!-- Main Page -->
+    <section id="main-page">
+        <div class="intro">
+            <img src="https://media.licdn.com/dms/image/D4E03AQEW6VSY8iaCMw/profile-displayphoto-shrink_800_800/0/1705719655045?e=1724284800&v=beta&t=3ZY00i3GFq95qG-U4eDyYcrDILSNIuOUyFyoXWcW23s" alt="Profile Photo" class="profile-photo">
+            <p>Gifted and passionate photographer with a year of experience producing top-quality photos in the studio and outdoor settings. Hands-on experience assisting with all aspects of memorable photoshoots, including scheduling, set designing, shooting, and editing. Proficient in Adobe Photoshop, GIMP, and Aurora HDR</p>
+        </div>
+    </section>
+
+      <!-- Main Menu -->
+      <header>
+        <nav>
+            <ul>
+                <li><a href="#main-page">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Resume Section -->
+</main>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <div class="resume-content">
+        <p>Here is my resume:  
+            <a href="https://drive.google.com/file/d/1jC2NuUd3K_cfLUax2Bv9awYHDZmvq1FI/view?usp=sharing" target="_blank" class="resume-button">Resume</a>
+        </p>
+    </div>
+</section>
+
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="social-links">
+            <h3>connect with me:</h3>
+            <ul>
+                <li><a href="https://github.com/kushalvarma1947" target="_blank">GitHub</a></li>
+                <li><a href="http://www.linkedin.com/in/chenchukushalvarma" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/kushal_somalaraju_chenchu?igsh=eXk5bzVhMjc3N2Z4" target="_blank">Instagram</a></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <table>
+            <tr>
+                <td><img src="https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.jpg" width="200" height="200" alt="Portfolio Image 1"></td>
+                <td><img src="https://images.pexels.com/photos/64296/pexels-photo-64296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.jpg" width="200" height="200" alt="Portfolio Image 2"></td>
+                <td><img src="https://images.pexels.com/photos/3227984/pexels-photo-3227984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.jpg" width="200" height="200" alt="Portfolio Image 3"></td>
+       
+                <td><img src="https://images.pexels.com/photos/672636/pexels-photo-672636.jpeg?auto=compress&cs=tinysrgb&w=600.jpg" width="200" height="200" alt="Portfolio Image 4"></td>
+                <td><img src="https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.jpg"  width="200" height="200" alt="Portfolio Image 5"></td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
